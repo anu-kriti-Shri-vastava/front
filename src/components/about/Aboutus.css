@@ -1,0 +1,160 @@
+.parentContainer {
+  top: 60%;
+    position: relative;
+    color: black;
+    }
+  
+.parentContainer1{
+  position: relative;
+  text-align: right;
+  right:20%;
+}
+
+.parentContainer2{
+    top: 60%;
+    position: relative;
+    color: black;
+    text-align: left;
+    left:8%;
+}
+
+.parentContainer3{
+  position: relative;
+  text-align: right;
+  right:20%;
+  right:8%;
+}
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 65%;
+      transform: translate(-50%, -50%);
+      }
+
+      .centered1{
+      position: absolute;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }
+
+      .centered2 {
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        }
+
+        .centered3{
+          position: absolute;
+          top: 80%;
+          left: 38%;
+          transform: translate(-50%, -50%);
+          }
+
+    
+    .top1{
+      position: absolute;
+      top: 20%;
+      left: 40%;
+    }
+
+    .top2{
+      position: absolute;
+      top: 20%;
+      left: 45%;
+    }
+
+    .top3{
+      position: absolute;
+      top: 20%;
+      left: 25%;
+    }
+
+    .center{
+        position: absolute;
+      top: 90%;
+      left: 30%;
+    }
+
+    h2{
+        font-size: 100px;
+        font-family: Brush Script MT, Brush Script Std, cursive;
+        color:green;
+    }
+
+    h3{
+      font-size: 60px;
+      font-family: Brush Script MT, Brush Script Std, cursive;
+      color:rgba(0, 128, 0, 0.647);
+  }
+
+    p{
+        font-size: 15px;
+        font-family: Trebuchet MS, sans-serif;
+        text-align: justify;
+    }
+
+    button{
+        background-color: green;
+        border: curve;
+        color: white;
+        padding: 10px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        }
+
+        .Container{
+          top: 60%;
+    position: relative;
+    color: black;
+    
+        }
+
+        .whycentered {
+          position: absolute;
+          top: 58%;
+          left: 40%;
+          transform: translate(-50%, -50%);
+          }
+          .whycentered p{
+            padding: 4px;
+            font-size: 15px;
+          }
+
+          .whytop{
+            position: absolute;
+            top: 8%;
+            left:30%;
+          }
+
+          h1{
+            font-size: 60px;
+            font-family: Brush Script MT, Brush Script Std, cursive;
+            color:rgba(0, 128, 0, 0.647);
+        }
+
+        .centered4{
+          position: absolute;
+      top: 55%;
+      left: 60%;
+      transform: translate(-50%, -50%);
+        }
+
+        .Container2 {
+          top: 60%;
+          left:12%;
+            position: relative;
+            color: black;
+            }
+
+            .top{
+              position: absolute;
+              top: 12%;
+              left: 50%;
+            }

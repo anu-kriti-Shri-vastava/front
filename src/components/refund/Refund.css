@@ -1,0 +1,14 @@
+.refundparentContainer {
+  margin-top: -7rem;
+    top: 60%;
+    position: relative;
+    color: black;
+    align-items: center;
+      }
+
+      .refundcentered {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
