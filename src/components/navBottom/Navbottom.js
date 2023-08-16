@@ -1,7 +1,11 @@
 import React from 'react';
 import "./Navbottom.css";
+
+
 const Navbottom = () => {
+  
   return (
+
     <div className="nav-bottom" style={{marginBottom:"3rem"}} id='deals' >
       <div className="lef"> 
         <h3 style={{ color: '#55f358', padding: '10px'}}>Save upto 50%off</h3>
@@ -10,6 +14,7 @@ const Navbottom = () => {
         <div className="buy-now"><button>Buy Now</button></div>
       </div>
     </div>
+    
   );
 };
 

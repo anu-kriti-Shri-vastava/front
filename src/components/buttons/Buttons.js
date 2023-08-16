@@ -23,7 +23,7 @@ const Buttons = () => {
               </div>
             </div>
           </button></Link>
-          
+
         <Link to="/vegetables-product">
           <button class="button button1">
             <div className='button-item'>

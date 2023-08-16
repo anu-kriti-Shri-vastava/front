@@ -3,10 +3,14 @@
     position: relative;
     color: black;
     align-items: center;
+    margin: 2rem 3rem;
 }
 .termcentered{
     position: absolute;
     top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.termparentContainer h4{
+    margin: 0.5rem;
 }

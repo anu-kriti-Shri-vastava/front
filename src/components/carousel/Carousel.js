@@ -12,27 +12,20 @@ function Slider(props) {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
+        setActiveIndex(activeIndex === len ? 0 : activeIndex + 1);
     }, 5000);
+
     return () => clearInterval(interval);
   }, [activeIndex]);
 
   return (
-    <div className="slider-container" style={{marginTop:"5rem" ,width:"83%"}}>
+    <div className="slider-container" style={{ marginTop: "5rem", width: "83%" }} id="deals">
       <SliderContent activeIndex={activeIndex} sliderImage={sliderImage} />
       <Arrows
-        prevSlide={() =>
-          setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)
-        }
-        nextSlide={() =>
-          setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
-        }
+        prevSlide={() =>setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)}
+        nextSlide={() =>setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)}
       />
-      <Dots
-        activeIndex={activeIndex}
-        sliderImage={sliderImage}
-        onclick={(activeIndex) => setActiveIndex(activeIndex)}
-      />
+      <Dots activeIndex={activeIndex} sliderImage={sliderImage} onclick={(activeIndex) => setActiveIndex(activeIndex)}/>
     </div>
   );
 }

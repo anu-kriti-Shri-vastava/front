@@ -1,10 +1,12 @@
 import React from 'react';
-import './Footer.css'; 
+import './Footer.css';
+
 import PhoneIcon from "../../images/login/phone.png";
 import MailIcon from "../../images/footer/mail.png";
 import DownloadIcon1 from "../../images/footer/appstore.png";
 import DownloadIcon2 from "../../images/footer/googleplay.png";
 import { Link } from 'react-router-dom';
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -22,7 +24,7 @@ const Footer = () => {
           <div className="footer-col">
             <h4>Company</h4>
             <ul>
-              <li><a href="about.html">About Us</a></li>
+              <li><Link to="/aboutus">About Us</Link></li>
               <li><a href="#">Our Team</a></li>
               <li><a href="#">Our Services</a></li>
             </ul>
@@ -64,8 +66,8 @@ const Footer = () => {
       <hr color="white" />
       <br />
       <div className='footer-text'>
-      <p className="footer-text-content" align="center"> By continuing, you agree to the Terms & Conditions of <span style={{ color: "green" }}>VegEase</span>. </p>
-      <p className="footer-text-content" align="center">©2023 VegEase</p>
+        <p className="footer-text-content" align="center"> By continuing, you agree to the Terms & Conditions of <span style={{ color: "green" }}>VegEase</span>. </p>
+        <p className="footer-text-content" align="center">©2023 VegEase</p>
       </div>
       <br />
     </footer>

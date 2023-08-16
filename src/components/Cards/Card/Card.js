@@ -1,13 +1,13 @@
 import React from 'react';
 import './Card.css';
-import '@fortawesome/fontawesome-free/css/all.min.css'; 
-// import ig from "../../../images/fruits/p10.jpg";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
-const Card = ({item , handleClick}) => {
+const Card = ({ item, handleClick }) => {
   if (!item) {
-    return null; 
+    return null;
   }
-  const {name , price , img} = item;
+  const { name, price, img } = item;
+  
   return (
     <div className="box">
       <img src={img} alt={name} />
@@ -21,7 +21,7 @@ const Card = ({item , handleClick}) => {
       </div>
       <div className="price-btn-container">
         <span className="price">Rs {price}</span>
-        <button href="#" className="btn" onClick={()=>handleClick(item)}>Add to cart</button>
+        <button href="#" className="btn" onClick={() => handleClick(item)}>Add to cart</button>
       </div>
     </div>
   );

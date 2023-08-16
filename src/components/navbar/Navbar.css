@@ -36,6 +36,8 @@ header{
 }
 .items li{
     margin: 9px;
+    padding: 0 1rem;
+    cursor: pointer;
 }
 .items li a{
   color: black;

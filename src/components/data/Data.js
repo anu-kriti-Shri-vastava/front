@@ -221,7 +221,81 @@ const list = [
       img: f15,
       amount:1,
     }],
-    seasonals: [],
+    seasonals: [
+      {
+        id: "v6",
+        name: "Onion",
+        price: "37",
+        img: v6,
+        amount:1,
+      }, {
+        id: "v7",
+        name: "Tomato",
+        price: "36",
+        img: v7,
+        amount:1,
+      }, {
+        id: "v8",
+        name: "Chilli",
+        price: "58",
+        img: v8,
+        amount:1,
+      }, {
+        id: "v9",
+        name: "Bottle Guard",
+        price: "78",
+        img: v9,
+        amount:1,
+      },{
+        id: "d7",
+        name: "shd",
+        price: "56",
+        img: p7,
+        amount:1,
+      }, {
+        id: "d8",
+        name: "Custurd",
+        price: "25",
+        img: p8,
+        amount:1,
+      }, {
+        id: "d9",
+        name: "Milk",
+        price: "23",
+        img: p9,
+        amount:1,
+      }, {
+        id: "d10",
+        name: "Ice cream",
+        price: "23",
+        img: p10,
+        amount:1,
+      }, {
+        id: "f12",
+        name: "Cherry",
+        price: "8",
+        img: f12,
+        amount:1,
+      }, {
+        id: "f13",
+        name: "abc",
+        price: "32",
+        img: f13,
+        amount:1,
+      }, {
+        id: "f14",
+        name: "Musk Melon",
+        price: "67",
+        img: f14,
+        amount:1,
+      }, {
+        id: "f15",
+        name: "Water Melon",
+        price: "78",
+        img: f15,
+        amount:1,
+      }
+    ],
     dairy: [{
       id: "d1",
       name: "Milk",

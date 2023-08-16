@@ -1,6 +1,6 @@
 .stars i {
     color: #27ae60;
-    font-size: 0rem; /* Adjust the font size for stars */
+    font-size: 0rem; 
   }
   .price-btn-container {
     display: flex;
@@ -12,7 +12,7 @@
   .price {
     color: #27ae60;
     font-weight: bolder;
-    font-size: 1.8rem; /* Adjust the font size for the price */
+    font-size: 1.8rem; 
   }
  .box{
     width: 370px;

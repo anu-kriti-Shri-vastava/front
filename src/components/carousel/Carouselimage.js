@@ -1,8 +1,6 @@
-// import Five from "../../images/slider/five.jpg";
 import Second from "../../images/slider/three.png";
 import Third from "../../images/slider/four.jpg";
 import Five from "../../images/slider/five.jpeg";
-// import ten from "../../images/slider/navbg.jpeg"
 export default [
   {
     title: "Fresh Harvest Deals",
